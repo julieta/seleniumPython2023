@@ -30,7 +30,7 @@ class test_002(unittest.TestCase):
 
     def test_005(self):
         self.variableA = 'Bienvenido a la clase unittest'
-        self.variableB = 'unittestxx'
+        self.variableB = 'unittest'
 
 
         self.assertIn(self.variableB, self.variableA, f'No coinciden')

@@ -7,7 +7,7 @@ class test_001(unittest.TestCase):
         self.Variable_a = 6
         self.Variable_b = 4
 
-    def test_001(self):             #aca se define el test y el nombre debe comenzar llamandose test
+    def test_001(self):             #aca se define el tests y el nombre debe comenzar llamandose tests
         self.Resultado = self.Variable_a + self.Variable_b
 
     def tearDown(self): #aca es donde se evalúa y se registra la prueba
